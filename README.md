@@ -8,5 +8,5 @@ This is the second taks of *project 2*. We use Faster-RCNN to do object detectio
 
 *test.py*: Compute the AP, mAP and mIOU of a trained net on the VOC2007 test dataset. Due to the limit of memory, the default sample size is 200. One can change the sample size via the variable *test_num*.
 
-*user_test.py*: For a given image (jpg or other formats) and a trained model, do object detection and visualize the proposal boxes returned by RPN.
+*user_test.py*: For a given image and a trained model, do object detection and visualize the proposal boxes returned by RPN.
 
