@@ -22,5 +22,11 @@ The trained net is automatically saved as a .pth file. To test the net,
 
 + python test.py
 
-note that the default test sample size is 200 due to the limit of memory. One can change it via the parameter *test_num* in *eval_()*. The results in our report are obtained by dividing the whold test dataset into five small batches.
+note that the default test sample size is 200 due to the limit of memory. One can change it via the parameter *test_num* in *eval_()*. The results in our report are obtained by dividing the whold test dataset into five small batches and calculate their average.
+
+To do object detection, put your images (.jpg, .png or other formats) in the folder *user*. Input
+
++ python user_test.py
+
+and the two images (one for detection, the other for proposal boxes) will be saved in *user*.
 
