@@ -10,3 +10,13 @@ This is the second taks of *project 2*. We use Faster-RCNN to do object detectio
 
 *user_test.py*: For a given image and a trained model, do object detection and visualize the proposal boxes returned by RPN.
 
+Besides, we replace Visdom by TensorBoardX to visualize loss, mAP and etc (see *train_record*). Our model can be downloaded from https://pan.baidu.com/s/1dj9UsXYNCsx5PajrDzgayw?pwd=sjwl (pwd: sjwl).
+
+# Usage
+
+First check the packages via requirements.txt. Then start training.
+
++ python train.py
+
+The trained net is 
+
