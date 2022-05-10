@@ -11,7 +11,6 @@ from eval_new import eval_
 
 import torch
 
-
 dataset = Dataset(opt)
 
 print('\nPrepare data...')
