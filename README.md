@@ -6,7 +6,7 @@ This is the second taks of *project 2*. We use Faster-RCNN to do object detectio
 
 *train.py*: Train a Faster-RCNN within ten epochs. We use the same hyper parameters (learning rate, batch and the optimizer) as *chenyuntc*. 
 
-*test.py*: Compute the AP, mAP and mIOU of a trained net on the VOC2007 test dataset. Due to the limit of memory, the default sample size is 200. One can change the sample size via the variable *test_num*.
+*test.py*: Compute the AP, mAP and mIOU of a trained net on the VOC2007 test dataset.
 
 *user_test.py*: For a given image and a trained model, do object detection and visualize the proposal boxes returned by RPN.
 
@@ -18,5 +18,9 @@ First check the packages via requirements.txt. Then start training.
 
 + python train.py
 
-The trained net is 
+The trained net is automatically saved as a .pth file. To test the net,
+
++ python test.py
+
+note that the default test sample size is 200 due to the limit of memory. One can change it via the parameter *test_num* in *eval_()*. The results in our report are obtained by dividing the whold test dataset into five small batches.
 
